@@ -39,7 +39,7 @@ def attack(unit, target):
     target['health'] -= damage
 
 
-def get_damage(damage,armor):
+def get_damage(damage, armor):
     return damage/armor
 
 
